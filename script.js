@@ -1,27 +1,18 @@
-var title="About Me";
-var desc="My name's Maciej, but I prefer to be called <b><i>Hyper</i></b><br>\
-Im an 18 year old developer<br>\
-that found the passion of creating games<br>\
-at the age of 14 back in 2017<br><br>\
-I created my first game in GMS following a tutorial<br>\
-trying to change some stuff on the way as I learned.<br>\
-I published my first game on 31st of August 2017<br>\
-called <i>Best Space Shooter 2017</i>(I know, I know..)<br>\
-then up till December 2019 I pushed through and updated<br>\
-the game adding a lot of new features(and the name changed to SSS77)<br><br>\
-From January 2020 I started working in Unity and still am<br>\
-on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'><b>SSS222</b></a>";
+var title="About Us";
+var desc="We're a passionate group thriving<br>\
+to create Hyper cool games and more!<br>\
+Founded by: <a href='https://hypergamesdev.github.io'>Hyper</a>";
 
-var pageName1="About Me";
-var pageName2="Portfolio";
+var pageName1="About Us";
+var pageName2="Games";
 
 function checkPage(){
 	var path = window.location.pathname;
 	var page = path.split("/").pop();
 	console.log(page);
 	if(document.getElementById("index")!=null)document.getElementById("index").href="index.html";
-	if(document.getElementById("portfolio")!=null)document.getElementById("portfolio").href="portfolio.html";
-	if(page=='portfolio.html'){
+	if(document.getElementById("games")!=null)document.getElementById("games").href="games.html";
+	if(page=='games.html'){
 		title=pageName2;
 		desc="";
 		if(document.getElementById("sss222Button")!=null)
@@ -44,7 +35,7 @@ function checkPage(){
 			document.getElementById("planetoidButton").href="https://github.com/HyperGamesDev/mc-planetoids";
 		if(document.getElementById("planetoidDate")!=null)
 			document.getElementById("planetoidDate").innerHTML="06.2020 - ??.????";
-	}else{
+	}/*else{
 		if(document.getElementById("allmylinks")!=null)
 			document.getElementById("allmylinks").innerHTML="<img src='img/carrd.png'>";
 			document.getElementById("allmylinks").href="https://hypergamesdev.carrd.co";
@@ -69,7 +60,7 @@ function checkPage(){
 		}if(document.getElementById("cv_PL")!=null){
 			document.getElementById("cv_PL").innerHTML="CV_PL";
 			document.getElementById("cv_PL").href="redirects/cv_PL.html";
-	}
+	}*/
 	if(document.getElementById("title")!=null)document.getElementById("title").innerHTML=title;
 	if(document.getElementById("desc")!=null)document.getElementById("desc").innerHTML=desc;
 }
