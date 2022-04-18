@@ -16,11 +16,9 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	margin-top:-20px;
 	background-color:rgba(255,255,255,1);
 }.logo{float:left;height:14vw;}
-//.sss222Logo{float:right;height:14vw;width:30vw;margin-left:10%;vertical-align:middle;}
 .content{
-	//float:center;
 	height:100%;
-	//max-width:75%;
+	/*max-width:75%;*/
 	margin-top: 50px;
 }
 
@@ -31,11 +29,11 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	margin-left:13%;
 	margin-top:6%;
 }a.menuButton{
-	//float:left;
+	/*float:left;*/
 	width:120%;
 	height:120%;
 	background-color:rgba(0,0,0,0);
-	//background-image:url("img/button1.png");
+	/*background-image:url("img/button1.png");*/
 	background-size:100% 100%;
 	border:none;
 	text-align:center;
@@ -43,7 +41,7 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	color:rgba(30,203,166,1);
 	letter-spacing:5px;
 	display:inline-block;
-	//position:relative;
+	/*position:relative;*/
 	
     vertical-align: middle;
 }
@@ -52,8 +50,8 @@ a.menuButton:hover{
 }
 span.menuButtonText{
 	top:1vw;
-	//right:5vw;
-	//margin: 0 auto;
+	/*right:5vw;*/
+	/*margin: 0 auto;*/
 	font-size:2.5vw;
 	position:relative;
 }
@@ -108,8 +106,8 @@ span.menuButtonText{
 .footer{
 	margin-top:4vmin;
 	height:2%;
-	//background-color: rgb(49,9,49);
-	//background-size:100% 100%;
+	/*background-color: rgb(49,9,49);*/
+	/*background-size:100% 100%;*/
 	color: white;
 }
 
