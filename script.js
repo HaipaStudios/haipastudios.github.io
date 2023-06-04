@@ -2,18 +2,22 @@ var title="About Us";
 var desc="We're a passionate group thriving<br>\
 to create Hyper cool games and more!<br>\
 Founded by: <b><i><a href='https://hypergamesdev.github.io'>Hyper!</a></i></b>";
-var footer="HyperLemonStudios® 2022 | Maciej Krefft";
+var footer="HyperLemonStudios® 2023 | Maciej Krefft";
 
 var pageName1="About Us";
 var pageName2="Games";
+var pageName3="Music";
 
 setTimeout(function Setup(){
 	let path=window.location.pathname;
 	let page=path.split("/").pop();
 	$("#index").children("span").html(pageName1);
 	$("#games").children("span").html(pageName2);
+	$("#music").children("span").html(pageName3);
 	$("#index").attr("href","index.html");
-	$("#games").attr("href","games.html");
+	//$("#games").attr("href","games.html");
+	$("#games").attr("href","https://hypergamesdev.github.io/portfolio");
+	$("#music").attr("href","https://shizuikari.jimdosite.com");
 	$(".footer").children("footer").html(footer);
 	
 	if(page=='games.html'){
