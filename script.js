@@ -2,7 +2,7 @@ var title="About Us";
 var desc="We're a passionate group thriving<br>\
 		to create Hyper cool games and more!<br>\
 		Founded by: <b><i><a href='https://haipadev.github.io'>HaipaDev</a></i></b>";
-var footer="HaipaStudios® HaipaDev® Shizuikari® 2023 | Maciej Krefft";
+var footer="HaipaStudios® HaipaDev® Shizuikari® 2024 | Maciej Krefft";
 
 var pageName1="About Us";
 var pageName2="Games";
